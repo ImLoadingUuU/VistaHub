@@ -10,7 +10,7 @@ import '@mdi/font/css/materialdesignicons.css'
 import 'highlight.js/styles/stackoverflow-dark.css'
 import 'highlight.js/lib/common';
 
-import hljsVuePlugin from "@highlightjs/vue-plugin";
+
 const vuetify = createVuetify({
   components,
   directives,
@@ -19,7 +19,7 @@ const vuetify = createVuetify({
 
 
 const app = createApp(App)
-app.use(hljsVuePlugin)
+
 app.use(router)
 app.use(vuetify)
 app.mount('#app')
